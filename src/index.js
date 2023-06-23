@@ -18,6 +18,8 @@ function handleFormSubmission(event) {
   person .addVenusAge();
   person.addMarsAge ();
   person.addJupiterAge ();
+  person.ageSinceBirthday();
+  person.
   }
 
   function displayDates() {
