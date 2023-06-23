@@ -28,5 +28,13 @@
       let jupDiff = Math.round(10*earthDiff / 11.86)/10;
       return `${earthDiff} Earth years have passed. ${murcDiff} Mercury years have passed. ${venusDiff} Venus years have passed. ${marsDiff} Mars years have passed. ${jupDiff} Jupiter years have passed.`;
     }
+    yearsUntilBirthday(futureDate) {
+      // let earthDiff = futureDate - this.age;
+      // let murcDiff = Math.round(10 * earthDiff / .24)/10;
+      // let venusDiff = Math.round(10*earthDiff / .62)/10;
+      // let marsDiff = Math.round(10*earthDiff/ 1.88)/10;
+      // let jupDiff = Math.round(10*earthDiff / 11.86)/10;
+      // return `${earthDiff} Earth years have yet to pass. ${murcDiff} Mercury years have yet to pass. ${venusDiff} Venus years have yet to pass. ${marsDiff} Mars years have yet to pass. ${jupDiff} Jupiter years have yet to pass.`;
+    }
 
   }
