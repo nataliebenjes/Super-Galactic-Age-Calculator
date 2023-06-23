@@ -48,6 +48,6 @@ describe("Person",  () => {
     person.addJupiterAge ();
     let result = person.yearsUntilBirthday(40);
     person.yearsUntilBirthday(40);
-    expect(result).toEqual("5 Earth years have yet to pass. 20.8 Mercury years have yet to pass. 8.1 Venus years have passed. 2.7 Mars years have yet to pass. .4 Jupiter years have yet to pass.");
+    expect(result).toEqual("5 Earth years have yet to pass. 20.8 Mercury years have yet to pass. 8.1 Venus years have yet to pass. 2.7 Mars years have yet to pass. 0.4 Jupiter years have yet to pass.");
   })
 })
