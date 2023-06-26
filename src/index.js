@@ -1,7 +1,7 @@
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
-import person from './../src/galaxy.js';
+import Person from './galaxy.js';
 
 window.addEventListener("load", function (){
   document.querySelector("form#person-info").addEventListener("submit", handleFormSubmission);
@@ -15,14 +15,15 @@ function handleFormSubmission(event) {
   const olderAge = parseInt(document.querySelector("#olderAge").value);
   let person = new Person(inputtedName, inputtedAge);
   person.addMurcuryAge();
-  person .addVenusAge();
-  person.addMarsAge ();
-  person.addJupiterAge ();
-  person.ageSinceBirthday();
-  person.yearsUntilBirthday();
+  person.addVenusAge();
+  person.addMarsAge();
+  person.addJupiterAge();
+  person.ageSinceBirthday(youngerAge);
+  person.yearsUntilBirthday(olderAge);
+  displayDates();
   }
 
   function displayDates() {
-    const displayValue = document.getElementById('results-field');
-    displayValue.textContent = ;
+    const displayValue = document.querySelector('#results-field');
+    displayValue.innerText =  `${person.name} is ${person.age} Earth years old, ${person.murcuryAge} Murcury years old,`;
 }
