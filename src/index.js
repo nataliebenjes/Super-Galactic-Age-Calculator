@@ -19,7 +19,7 @@ function handleFormSubmission(event) {
   person.addMarsAge ();
   person.addJupiterAge ();
   person.ageSinceBirthday();
-  person.
+  person.yearsUntilBirthday();
   }
 
   function displayDates() {
