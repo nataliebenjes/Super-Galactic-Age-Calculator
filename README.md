@@ -24,7 +24,7 @@ _This website takes user inputs for name, age, time since age, and time until ag
 
 ## Known Bugs
 
-* _No known bugs_
+* _UI non functioning. Person object not inported from galaxy.js to index.js_
 _If issues with the code are found please contact Natalie Benjes. GitHub username is nataliebenjes_
 
 ## License
