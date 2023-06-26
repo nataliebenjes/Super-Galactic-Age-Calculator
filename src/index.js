@@ -21,9 +21,9 @@ function handleFormSubmission(event) {
   person.ageSinceBirthday(youngerAge);
   person.yearsUntilBirthday(olderAge);
   displayDates();
-  }
+}
 
-  function displayDates() {
-    const displayValue = document.querySelector('#results-field');
-    displayValue.innerText =  `${person.name} is ${person.age} Earth years old, ${person.murcuryAge} Murcury years old,`;
+function displayDates() {
+  const displayValue = document.querySelector('#results-field');
+  displayValue.innerText =  `${person.name} is ${person.age} Earth years old, ${person.murcuryAge} Murcury years old,`;
 }
