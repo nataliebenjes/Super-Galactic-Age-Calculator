@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
 import Person from './galaxy.js';
 
-window.addEventListener("load", function (){
+window.addEventListener("load", function () {
   document.querySelector("form#person-info").addEventListener("submit", handleFormSubmission);
 });
 
@@ -20,10 +20,10 @@ function handleFormSubmission(event) {
   person.addJupiterAge();
   person.ageSinceBirthday(youngerAge);
   person.yearsUntilBirthday(olderAge);
-  displayDates();
+  displayDates(person);
 }
 
-function displayDates() {
+function displayDates(person) {
   const displayValue = document.querySelector('#results-field');
-  displayValue.innerText =  `${person.name} is ${person.age} Earth years old, ${person.murcuryAge} Murcury years old,`;
+  displayValue.innerText = `${person.name} is ${person.age} Earth years old, ${person.murcuryAge} Murcury years old,`;
 }

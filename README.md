@@ -1,4 +1,7 @@
 
+##   Galaxy Time Keeper
+
+
 #### By _**Natalie Benjes**_
 
 #### _A form to show the user what their age in years according to different planet year lengths._
@@ -19,13 +22,18 @@ _This website takes user inputs for name, age, time since age, and time until ag
 ## Setup/Installation Requirements
 
 * _Download the repository "Super-Galactic-Age-Calculator" to your device._
-* _Open index.html_
+* _Open "Super-Galactic-Age-Calculator" in a code editor_
+*_Install all packages with $ npm install_
+*_Build the project using webpack with $ npm run build._
+*_Start development server with $ npm run start_
+*_Run tests with Jest using $ npm run test_
+
 
 
 ## Known Bugs
 
 * _UI non functioning. Person object not inported from galaxy.js to index.js_
-_If issues with the code are found please contact Natalie Benjes. GitHub username is nataliebenjes_
+
 
 ## License
 
