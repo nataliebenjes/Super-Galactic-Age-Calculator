@@ -23,10 +23,10 @@ _This website takes user inputs for name, age, time since age, and time until ag
 
 * _Download the repository "Super-Galactic-Age-Calculator" to your device._
 * _Open "Super-Galactic-Age-Calculator" in a code editor_
-*_Install all packages with $ npm install_
-*_Build the project using webpack with $ npm run build._
-*_Start development server with $ npm run start_
-*_Run tests with Jest using $ npm run test_
+* _Install all packages with ```$ npm install```_
+* _Build the project using webpack with ```$ npm run build.```_
+* _Start development server with ```$ npm run start```_
+* _Run tests with Jest using ```$ npm run test```_
 
 
 
